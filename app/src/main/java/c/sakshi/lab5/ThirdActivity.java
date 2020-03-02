@@ -16,7 +16,7 @@ import java.util.Date;
 
 public class ThirdActivity extends AppCompatActivity {
 
-    int noteid = -1;
+    int noteid;
     String usernameKey = "username";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +36,7 @@ public class ThirdActivity extends AppCompatActivity {
             Note note = Main2Activity.notes.get(noteid);
             String noteContent = note.getContent();
             //Use editText.setText() to display the contents of this note on screen
+            noteText.setText(noteContent);
         }
     }
 
