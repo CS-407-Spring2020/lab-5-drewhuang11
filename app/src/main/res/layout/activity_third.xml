@@ -18,14 +18,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="96dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="28dp"
+        android:id="@+id/button"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
         android:onClick="clickFunction"
         android:text="SAVE"
         app:layout_constraintTop_toBottomOf="@id/editText3"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

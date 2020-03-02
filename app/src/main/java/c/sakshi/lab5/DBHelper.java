@@ -2,7 +2,6 @@ package c.sakshi.lab5;
 
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-
 import java.util.ArrayList;
 
 public class DBHelper {
